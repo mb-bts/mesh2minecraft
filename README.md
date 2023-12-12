@@ -15,13 +15,13 @@ pip install -r requirements.txt
 ## Usage
 To use without Minecraft, just specify the OBJ file’s name/path, and provide a number which determines the sidelength of each voxel (lower sidelength means there will be more voxels).
 ```
-python src/main.py test_models/cow.obj 0.05
+python src/main.py test_models/cow.obj 0.02
 ```
 <p align="center"><img src="/images/voxelized_cow.png" alt="Image of voxelized cow" style="width:50%;"></p>
 
 To use with Minecraft, include the path to the world and the coordinates at which to build the structure. Be sure to adapt the world path if necessary to suit your system (I used a Mac), replace YOUR_WORLD_NAME with your world's name, and adjust the build location if desired. 
 ```
-python src/main.py test_models/cow.obj 0.05 --world-path “~/Library/Application Support/minecraft/YOUR_WORLD_NAME” --build-location “(0, 4, 0)”
+python src/main.py test_models/cow.obj 0.02 --world-path “~/Library/Application Support/minecraft/YOUR_WORLD_NAME” --build-location “(0, 4, 0)”
 ```
 <p align="center"><img src="/images/minecraft_cow.png" alt="Image of voxelized cow" style="width:50%;"></p>
 
