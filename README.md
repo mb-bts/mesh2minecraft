@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-To use without Minecraft, just specify the OBJ file’s name/path, and provide a number which determines the sidelength of each voxel (lower sidelength means there will be more voxels).
+To use without Minecraft, just specify the OBJ file’s name/path, and provide a number which determines the sidelength of each voxel (lower sidelength means there will be more voxels, but beware that choosing too small of a number might create gaps in the finished model).
 ```
 python src/main.py test_models/cow.obj 0.02
 ```
